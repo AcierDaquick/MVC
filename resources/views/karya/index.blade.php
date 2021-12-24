@@ -44,7 +44,14 @@
         </tr>
         @endforeach
     </table>
-
+    <div class="float-left">
+    <br>
+    <a class="btn btn-success" href="{{ route('sisw.index') }}"> Daftar  Siswa </a>
+    </div>
+    <br>
+    <div class="float-right">
+    <a class="btn btn-success" href="{{ route('gur.index') }}"> Daftar  Guru </a>
+    </div>
     {!! $karya->links() !!}
 
 @endsection

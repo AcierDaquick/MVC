@@ -47,6 +47,8 @@
     </table>
     <br>
     <center><a class="btn btn-success" href="{{ route('sisw.index') }}"> Daftar  Siswa </a></center>
+    <br>
+    <center><a class="btn btn-success" href="{{ route('karya.index') }}"> Daftar  Karyawan </a></center>
     {!! $gur->links() !!}
 
 @endsection

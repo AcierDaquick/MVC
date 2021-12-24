@@ -50,6 +50,8 @@
     </table>
     <br>
     <center><a class="btn btn-success" href="{{ route('gur.index') }}"> Daftar Guru </a></center>
+    <br>
+    <center><a class="btn btn-success" href="{{ route('karya.index') }}"> Daftar Karyawan </a></center>
     {!! $sisw->links() !!}
 
 @endsection
